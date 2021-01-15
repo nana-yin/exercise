@@ -23,7 +23,7 @@ export default {
     },
     handlerResize() {
       const isMobile = this._isMobile()
-      this.$store.commit('system/updataIsMobile', !!isMobile)
+      this.$store.commit('updataIsMobile', !!isMobile)
     }
   }
 }

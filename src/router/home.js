@@ -26,7 +26,7 @@ export default [
         children: [
           {
             path: '/home/menu1/menu1_1',
-            name: 'menu1_1',
+            name: 'Menu1_1',
             isMenu: true,
             component: () =>
               import(/* webpackChunkName: "home" */ '@/views/home/menu1_1'),
