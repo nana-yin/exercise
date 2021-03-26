@@ -60,7 +60,7 @@ export default {
   }
 }
 </script>
-<style lang="stylus">
+<style lang="scss">
 .header {
   position: fixed;
   top: 0;

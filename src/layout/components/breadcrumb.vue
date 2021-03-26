@@ -75,7 +75,7 @@ export default {
   }
 }
 </script>
-<style lang="stylus">
+<style lang="scss">
 .titleNav {
   display: flex;
   justify-content: space-between;

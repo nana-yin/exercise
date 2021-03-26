@@ -18,7 +18,7 @@ export default {
   methods: {}
 }
 </script>
-<style lang="stylus">
+<style lang="scss">
 .ant-layout-content {
   height: calc(100vh - 190px);
   overflow-y: hidden;

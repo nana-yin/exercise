@@ -92,7 +92,7 @@ export default {
   }
 }
 </script>
-<style lang="stylus">
+<style lang="scss">
 .ant-layout {
   height: calc(100vh - 86px);
   overflow-y: hidden;
@@ -127,7 +127,7 @@ export default {
   // background: transparent;
   padding: 36px 6px 0 20px;
   margin-bottom: 20px;
-  /deep/ .ant-layout-sider-children {
+  >>>.ant-layout-sider-children {
     overflow: scroll;
     -ms-overflow-style: none; //IE 10+
     scrollbar-width: none; //Firefox
